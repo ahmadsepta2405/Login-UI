@@ -1,16 +1,35 @@
-# wireframe
+## 1. Membuat Struktur File
 
-A new Flutter project.
+- Buat file `login_page.dart` di dalam folder `lib`.
+- Import package yang diperlukan seperti `flutter/material.dart` dan `shared_preferences` untuk penyimpanan status login.
 
-## Getting Started
+## 2. Membuat Form Login
 
-This project is a starting point for a Flutter application.
+- Tambahkan widget `TextField` untuk input email dan password.
+- Tambahkan ikon pada setiap field agar tampilan lebih menarik.
+- Gunakan properti `obscureText` pada field password untuk menyembunyikan karakter.
 
-A few resources to get you started if this is your first Flutter project:
+## 3. Validasi Input
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Pastikan email dan password tidak kosong.
+- Validasi format email agar mengandung karakter `@`.
+- Validasi panjang password minimal 6 karakter.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 4. Proses Autentikasi
+
+- Cek data user pada file `user_data.dart` (dummy data).
+- Jika data sesuai, simpan status login menggunakan `shared_preferences`.
+- Jika gagal, tampilkan dialog error.
+
+## 5. Navigasi Setelah Login
+
+- Jika login berhasil, arahkan pengguna ke halaman utama (`home_page.dart`).
+- Jika login gagal, tampilkan pesan kesalahan.
+
+## 6. Fitur Tambahan
+
+- Tambahkan tombol untuk navigasi ke halaman registrasi (`register_page.dart`).
+- Gunakan widget `Hero` untuk animasi ikon login.
+
+Untuk menjalankan aplikasi:
+flutter run
