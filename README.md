@@ -33,3 +33,11 @@
 
 Untuk menjalankan aplikasi:
 flutter run
+
+## 7. tampilan akhir
+![WhatsApp Image 2025-09-15 at 19 44 34_2af7a2c0](https://github.com/user-attachments/assets/9a715bc0-804e-4af3-b347-8b38addabffd)
+![WhatsApp Image 2025-09-15 at 19 39 47_c79e66da](https://github.com/user-attachments/assets/ff3800bf-3d67-457e-85b4-b1a6af7af788)
+![WhatsApp Image 2025-09-15 at 19 40 48_bdf40778](https://github.com/user-attachments/assets/853688d9-d018-4508-aa36-0f28725cc39f)
+
+
+
